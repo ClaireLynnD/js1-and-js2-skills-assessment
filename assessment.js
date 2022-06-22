@@ -25,6 +25,18 @@ const inventory = {
     }
 }
 
+const itemPrice = (item) => {
+    switch (item) {
+        case "computer":
+            console.log("$500");
+            break;
+        default:
+            console.log("Item not in store");
+    }
+}
+
+itemPrice("computer");
+
 // #3
 
 const restaurants = ["Applebees", "Panera Bread", "Popeyes", "Chopt", "Chick-Fil-A", "Cheesecake Factory", "Five Guys"];

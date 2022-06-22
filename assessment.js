@@ -35,14 +35,14 @@ const itemPrice = (item) => {
     }
 }
 
-itemPrice("computer");
+// itemPrice("computer");
 
 // #3
 
 const restaurants = ["Applebees", "Panera Bread", "Popeyes", "Chopt", "Chick-Fil-A", "Cheesecake Factory", "Five Guys"];
 const randomRestaurant = (numOfRestaurants) => {
     const randomRestaurantList = [];
-    for (i = 0; i <= numOfRestaurants; i++) {
+    for (i = 0; i < numOfRestaurants; i++) {
         randomRestaurantList.push(restaurants[Math.floor(Math.random() * restaurants.length)]);
     }
     return randomRestaurantList;
